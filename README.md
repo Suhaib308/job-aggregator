@@ -22,6 +22,7 @@ It is designed as a **reusable automation tool**, not a one-off script.
 ---
 
 ## Project Structure
+```bash
 job-aggregator/
 ├── node_modules/ # Node.js project modules
 ├── scrapers/ # Site-specific scrapers
@@ -32,6 +33,7 @@ job-aggregator/
 ├── package.json # Node.js project definition
 ├── package-lock.json # Node.js project definition
 └── README.md # Project description
+```
 
 ---
 
@@ -44,7 +46,10 @@ git clone https://github.com/suhaib308/job-aggregator.git
 ```bash
 cd job-aggregator
 ```
-3. npm install
+3. Install dependencies:
+```bash
+npm install
+```
 
 ## Usage
 
