@@ -7,7 +7,7 @@ async function scrapeIndeed(searchUrl) {
 
     try {
         browser = await chromium.launch({
-            headless: false,
+            headless: true,
             slowMo: 100
         });
 
